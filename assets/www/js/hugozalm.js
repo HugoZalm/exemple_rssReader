@@ -1,8 +1,8 @@
 var HZ = (function() {
 	return {
-		reedRSS: function() {
+		readRSS: function() {
 			var rssurl = "http://www.nu.nl/feeds/rss/algemeen.rss";
-			$.get(rssurl, function(data){
+			$.get(rssurl, function(data){				
 				var $xml = $(data);
 				$xml.find('item').each(function() {
 					var $this = $(this);
@@ -11,10 +11,10 @@ var HZ = (function() {
 						link: $this.find('link').text(),
 						description: $this.find('description').text(),
 						pubDate: $this.find('pubDate').text(),
-						author: $this.find('author').text(),
-					}
-					return item;
+						author: $this.find('author').text()
+					};
 				});
+				return item;
 			});
 		},
 		test: function() {
