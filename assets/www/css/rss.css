@@ -22,36 +22,36 @@ body {
 	padding: 20px;
 }
 
-.channelTitle {
+.HZ_channelTitle {
 	background-color: #bbbbbb;
 	font-weight: bold;
 	font-size: 250%;
 	padding: 5px;
 }
 
-.channelDescription {
+.HZ_channelDescription {
 	background-color: #bbbbbb;
 	padding: 5px;
 	margin-bottom: 5px;
 }
 
-.feedItem {
+.HZ_feedItem {
 	border: solid 1px #000000;
 	padding: 5px;
 	margin-bottom: 5px;
 }
 
-.feedTitle {
+.HZ_feeditemTitle {
 	font-weight: bold;
 	font-size: 150%;
 	background-color: #E4E4E4;
 }
 
-.feedInfo {
+.HZ_feeditemInfo {
 	font-size: 75%;
 	background-color: #E4E4E4;
 }
 
-.feedDescription {
+.HZ_feeditemDescription {
 
 }
