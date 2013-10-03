@@ -1,0 +1,57 @@
+body {
+	padding:10px;
+}
+
+
+#buttons {
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}
+
+#buttons img {
+	display: block;
+}
+
+#content {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	padding: 20px;
+}
+
+.channelTitle {
+	background-color: #bbbbbb;
+	font-weight: bold;
+	font-size: 250%;
+	padding: 5px;
+}
+
+.channelDescription {
+	background-color: #bbbbbb;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.feedItem {
+	border: solid 1px #000000;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.feedTitle {
+	font-weight: bold;
+	font-size: 150%;
+	background-color: #E4E4E4;
+}
+
+.feedInfo {
+	font-size: 75%;
+	background-color: #E4E4E4;
+}
+
+.feedDescription {
+
+}
